@@ -8,6 +8,7 @@ export class CheckoutPage {
   readonly continueButton: Locator;
   readonly finishButton: Locator;
   readonly completeHeader: Locator;
+  readonly errorMessage: Locator;
 
   constructor(page: Page) {
     this.page = page;
@@ -17,6 +18,7 @@ export class CheckoutPage {
     this.continueButton = page.locator("#continue");
     this.finishButton = page.locator("#finish");
     this.completeHeader = page.locator(".complete-header");
+    this.errorMessage = page.locator('[data-test="error"]');
   }
 
   async fillCheckoutForm(
