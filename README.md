@@ -36,7 +36,7 @@ API: https://jsonplaceholder.typicode.com
 ## ⚙️ Setup & Installation
 
 ### Clone repository
-git clone [https://github.com/Sundzaj/YOUR_REPO.git](https://github.com/Sundzaj/portfolio2.git)
+git clone [<URL_REPOZYTORIUM>](https://github.com/Sundzaj/portfolio2.git)
 
 ### Install dependencies
 npm install
